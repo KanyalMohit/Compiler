@@ -8,9 +8,11 @@ int main() {
     try {
         // Test input with for loop
         std::string input = R"(
+            var a = 2;
             for (var i = 6; i >= 0; i = i - 1) {
                 print(i);
             }
+            print(a);
         )";
 
         std::cout << "Input program:\n" << input << "\n\n";
