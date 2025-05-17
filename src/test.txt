@@ -1,35 +1,16 @@
-// Variable declarations
-var x = 5;
-var y = 10;
-
-// Basic arithmetic
-var sum = x + y;
-var product = x * y;
-
-// Comparison
-if (x < y) {
-    var result = y - x;
+for (var i = 6; i >= 0; i = i - 1) {
+    print(i);
 }
-
-// While loop
-while (x < 10) {
-    x = x + 1;
-}
-
-// Nested if-else
-if (x > 5) {
-    if (y > 5) {
-        var both_greater = true;
-    } else {
-        var y_not_greater = true;
+var a="hello";
+print(a);
+var b = "hue";
+print(a+b);
+print("hue"+" hee");
+var c = 5;
+if(c>3){
+    if(c<8){
+        print("Small");
     }
-} else {
-    var x_not_greater = true;
+}else{
+    print("no");
 }
-
-// Block statements
-{
-    var a = 1;
-    var b = 2;
-    var c = a + b;
-} 
